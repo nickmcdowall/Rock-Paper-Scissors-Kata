@@ -26,9 +26,9 @@ Do this for all combinations
 
 ### Stage 2
 Refactor your code to adhere to these rules:
-1. One level of indentation per method
-2. One dot per line
-3. Don’t use if, else or case statements
+* One level of indentation per method
+* One dot per line
+* Don’t use if, else or case statements
 
 ### Stage 3
 Add Spock and Lizard to the equation:
@@ -43,10 +43,7 @@ Add Spock and Lizard to the equation:
 
 ### Stage 4
 Create a Game object that will simulate 2 players throwing shapes until
-one player wins the best of 7. Each round of result must be printed showing
-the shapes thrown, result of the round and running score.
+one player wins the best of 7.
 
-
-
-
-
+Each round must be printed showing the shapes thrown by both players, the
+result of the round and a running total of the scores.
